@@ -17,6 +17,8 @@ function whileLoop(t) {
 }
 
 function doWhileLoop(array) {
+  return Math.random() >= 0.5
+}
   do {
   console.log('doo-bee-doo-bee-doo')
 } while (array.length++ > 0 && maybeTrue());
